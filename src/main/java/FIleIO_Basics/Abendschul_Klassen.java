@@ -42,12 +42,12 @@ public class Abendschul_Klassen {
         }
 
 
+
+
         /*
          * Jetzt wollen wir die erstellte Liste einlesen.
          * Die Informatiker sowie die Elektrotechniker sollen jeweils einer eigenen Textdatei zugeteilt werden.
          */
-
-
 
         // Zuerst sortieren wir die Schüler in 2 Listen
         ArrayList<String> informatiker = new ArrayList<>(); // wir erstellen eine Liste für die 5AAIF
@@ -88,10 +88,11 @@ public class Abendschul_Klassen {
         }
 
 
+
+
         /*
          * Jetzt schreiben wir die Namen der Schüler in neue Textdateien für die Klassen
          */
-
 
         // Wir erstellen eine Textdatei mit dem Namen für die Informatiker und befüllen sie mit den Schülern der 5AAIT
         try(BufferedWriter bw = new BufferedWriter(new FileWriter("Klassenliste 5AAIF.txt"))){
