@@ -1,3 +1,11 @@
+
+# 💡 Tutorials
+[File erstellen und Text einlesen (mit Scanner)](https://www.youtube.com/watch?v=xQ_Kiv0j2_A&t=127s)
+
+[File zeilenweise lesen und beschreiben (mit Buffared-Reader/Writer)](https://www.youtube.com/watch?v=J7v6BpXvdWI)
+
+---
+
 # 🧩 File-IO Übung 01 – Personen verarbeiten
 
 ## 📄 Übungsdatei: `personen.txt`
