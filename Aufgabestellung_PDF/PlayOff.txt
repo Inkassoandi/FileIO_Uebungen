@@ -1,0 +1,47 @@
+Einleitung
+
+
+Im heurigen Jahr soll ein neuer Modus zur Auswahl der im Playoff teilnehmenden Mannschaften in Kraft treten:
+	• Vier Mannschaften kommen in das Playoff
+	• Fix im Playoff sind die drei Mannschaften mit den meisten Punkten
+	• Der vierte Platz wird an die Mannschaft mit dem besten Torverhältnis vergeben
+
+Es ist nun ein Programm zu erstellen, das die Auswahl der Mannschaften durchführt.
+
+
+
+Dabei ergeben sich folgende Teilschritte:
+
+1. [2P] Erstellen einer Klasse Team, Objekte der Klasse repräsentieren je eine Mannschaft.
+2. [2P] Einlesen der Datei tabelle.txt, Zeilen der Datei werden in Objekte der Klasse Team konvertiert und in einer geeigneten Collections-Klasse abgelegt.
+3. [2P] Auswahl der 4 Mannschaften nach obigem Algorithmus.
+4. [2P] Speichern der ausgewählten Teams in einer Textdatei definierten Formates.
+
+
+
+
+Ergänzende Informationen
+Die Datei tabelle.txt, ist folgendermaßen aufgebaut:
+
+
+Platz.-Teamname-Punkteverhältnis-Punkte
+1.-Red Bull Salzburg-141:92-56
+2.-Liwest Black Wings Linz-137:97-51
+3.-UPC Vienna Capitals-100:93-45
+4.-EC Villacher SV-101:102-43
+5.-Orli Znojmo-131:113-42
+6.-Fehervar AV19-121:119-41
+7.-HCB Südtirol-103:97-40
+8.-Moser Medical Graz 99ers-101:108-36
+9.-Dornbirner EC-99:123-34
+10.-KAC-90:114-34
+11.-TWK Innsbruck Haie-92:115-31
+12.-Olimpija Ljubljana-75:118-28
+
+
+
+Das Format der Zieldatei sieht wie folgt aus:
+
+1. im Playoff: Red Bull Salzburg
+2. im Playoff: Liwest Black Wings Linz
+…
